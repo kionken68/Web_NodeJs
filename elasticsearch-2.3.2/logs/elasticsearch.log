@@ -1,0 +1,14 @@
+[2016-05-09 15:27:12,353][INFO ][node                     ] [Rage] version[2.3.2], pid[3724], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-09 15:27:12,353][INFO ][node                     ] [Rage] initializing ...
+[2016-05-09 15:27:13,023][INFO ][plugins                  ] [Rage] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-09 15:27:13,055][INFO ][env                      ] [Rage] using [1] data paths, mounts [[Data D (E:)]], net usable_space [300.8gb], net total_space [344.3gb], spins? [unknown], types [NTFS]
+[2016-05-09 15:27:13,072][INFO ][env                      ] [Rage] heap size [910.5mb], compressed ordinary object pointers [true]
+[2016-05-09 15:27:15,482][INFO ][node                     ] [Rage] initialized
+[2016-05-09 15:27:15,482][INFO ][node                     ] [Rage] starting ...
+[2016-05-09 15:27:15,714][INFO ][transport                ] [Rage] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-05-09 15:27:15,729][INFO ][discovery                ] [Rage] elasticsearch/nFYhi4YYSLmEltwitnjoxA
+[2016-05-09 15:27:19,775][INFO ][cluster.service          ] [Rage] new_master {Rage}{nFYhi4YYSLmEltwitnjoxA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-09 15:27:19,927][INFO ][http                     ] [Rage] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-05-09 15:27:19,928][INFO ][gateway                  ] [Rage] recovered [1] indices into cluster_state
+[2016-05-09 15:27:19,928][INFO ][node                     ] [Rage] started
+[2016-05-09 15:27:22,836][INFO ][cluster.routing.allocation] [Rage] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][0]] ...]).
